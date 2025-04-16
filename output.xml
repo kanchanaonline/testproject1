@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-16T20:27:27.119289" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="c:\kanchanaDocs\TestSample\reqres-api-tests\tests.robot">
+<kw name="Create Session" type="SETUP">
+<msg time="2025-04-16T20:27:27.156939" level="FAIL">No keyword with name 'Create Session' found.</msg>
+<arg>reqres</arg>
+<arg>https://reqres.in</arg>
+<status status="FAIL" start="2025-04-16T20:27:27.156708" elapsed="0.001373">No keyword with name 'Create Session' found.</status>
+</kw>
+<test id="s1-t1" name="Get User - Valid ID" line="18">
+<tag>GET</tag>
+<tag>Positive</tag>
+<status status="FAIL" start="2025-04-16T20:27:27.158438" elapsed="0.000761">Parent suite setup failed:
+No keyword with name 'Create Session' found.</status>
+</test>
+<status status="FAIL" start="2025-04-16T20:27:27.122519" elapsed="0.038054">Suite setup failed:
+No keyword with name 'Create Session' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">GET</stat>
+<stat pass="0" fail="1" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="1" skip="0">Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-16T20:27:27.122716" level="ERROR">Error in file 'c:\kanchanaDocs\TestSample\reqres-api-tests\tests.robot' on line 12: Setting variable '${LOGIN_PASSWORD} cityslicka' failed: Invalid variable name '${LOGIN_PASSWORD} cityslicka'.</msg>
+<msg time="2025-04-16T20:27:27.141842" level="ERROR">Error in file 'c:\kanchanaDocs\TestSample\reqres-api-tests\tests.robot' on line 2: Importing library 'RequestsLibrary' failed: ModuleNotFoundError: No module named 'RequestsLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\kanch\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_debug_adapter
+  C:\kanchanaDocs\TestSample
+  c:\Users\kanch\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src
+  c:\Users\kanch\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored
+  C:\Users\kanch\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\kanch\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\kanch\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\kanch\AppData\Local\Programs\Python\Python313
+  C:\Users\kanch\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>
